@@ -1,0 +1,29 @@
+$colorepari: whitesmoke;
+td {
+	border: 1px solid #dddddd;
+	text-align: center;
+}
+th {
+	border: 1px solid #dddddd;
+	text-align: center;
+}
+thead {
+	font-family: "Roboto", sans-serif;
+	font-size: 20px;
+}
+.titolo {
+	font-family: "Roboto", sans-serif;
+	font-size: 60px;
+}
+tr {
+	&:nth-child(even) {
+		background-color: $colorepari !important;
+	}
+}
+.row {
+	margin-bottom: 10px;
+}
+.modal {
+	text-align: center;
+}
+
